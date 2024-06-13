@@ -19,8 +19,46 @@
   margin-left: 10%;
 }
 
-head h1 {
+header h1 {
   font-family: "Rubik Vinyl", system-ui;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
+  text-align: center;
+  font-size: 110px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+
+box1 {
+  margin-top: 600px;
+}
+
+img {
+  height: 250px;
+  width: 350px;
+  margin: 30px;
+  float: left;
+}
+
+.button {
+  background-color: orange;
+  font-weight: 400;
+  font-size: large;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 950px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  color: darkslateblue;
+}
+
+button:active {
+  background-color: dimgrey;
 }
