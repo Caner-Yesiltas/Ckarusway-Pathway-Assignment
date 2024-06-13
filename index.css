@@ -8,14 +8,14 @@
   background-color: #21d4fd;
   background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .box {
   border: 2px solid #21d4fd;
   border-radius: 10px;
   width: 80%;
-  height: 80vh;
+  height: 35vh;
   margin-left: 10%;
 }
 
@@ -25,6 +25,10 @@ header h1 {
   font-style: normal;
   text-align: center;
   font-size: 110px;
+  color: rgb(8, 7, 7);
+}
+
+header {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
@@ -42,7 +46,7 @@ img {
 
 .button {
   background-color: orange;
-  font-weight: 400;
+  font-weight: 500;
   font-size: large;
   padding: 5px;
   border: none;
@@ -53,12 +57,14 @@ img {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 button:hover {
-  color: darkslateblue;
+  background-color: rgb(82, 184, 23);
+  color: darkmagenta;
 }
 
-button:active {
-  background-color: dimgrey;
+.Paths {
+  color: rgb(255, 142, 101);
 }
